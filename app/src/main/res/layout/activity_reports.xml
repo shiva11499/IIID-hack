@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reports">
+
+    <ImageView
+        android:id="@+id/progress"
+        android:layout_width="108dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/progress" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Shivansh Garg"
+        android:layout_below="@+id/progress"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 20 yrs"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/name"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/ex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 1: "
+        android:layout_below="@id/age"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/first_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ex1"
+        android:layout_below="@id/age"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="50"/>
+
+    <TextView
+        android:id="@+id/ex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 2: "
+        android:layout_below="@id/ex1"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/second_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ex2"
+        android:layout_below="@id/ex1"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="70"/>
+
+    <TextView
+        android:id="@+id/ex3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 3: "
+        android:layout_below="@id/ex2"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/third_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ex1"
+        android:layout_below="@id/ex2"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="72"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "875897432566",
+    "firebase_url": "https://hai-kya-ye.firebaseio.com",
+    "project_id": "hai-kya-ye",
+    "storage_bucket": "hai-kya-ye.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875897432566:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875897432566-gdggi6klrqoplpmv2p20v3q9ldvlv9da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5k5vBpfrOndL_NZPI9z1dB8SxGN6AZZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875897432566-gdggi6klrqoplpmv2p20v3q9ldvlv9da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875897432566:android:976e7d982fd7ae6a",
+        "android_client_info": {
+          "package_name": "com.gshivansh37.physio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875897432566-puliu56vggd85o6irbbrlp8oeldlgeun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gshivansh37.physio",
+            "certificate_hash": "3942224b0dd913623d3f1901dcf4031e5b71771a"
+          }
+        },
+        {
+          "client_id": "875897432566-gdggi6klrqoplpmv2p20v3q9ldvlv9da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5k5vBpfrOndL_NZPI9z1dB8SxGN6AZZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875897432566-gdggi6klrqoplpmv2p20v3q9ldvlv9da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

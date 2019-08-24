@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Exercise">
+
+    <ImageView
+        android:id="@+id/exercise_icon"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignEnd="@+id/reports_icon"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/trained" />
+
+    <Button
+        android:id="@+id/basic_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/exercise_icon"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        android:text="Basic exercises"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/reports_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/remote" />
+
+    <Button
+        android:id="@+id/remote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/reports_icon"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient"
+        android:elevation="4dp"
+        android:text="Remote"
+        android:textSize="15dp" />
+
+</RelativeLayout>

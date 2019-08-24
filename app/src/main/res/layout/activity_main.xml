@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/greeting"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Good evening,"
+    android:textSize="30sp"
+    android:textColor="#000"
+        android:layout_centerHorizontal="true"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="40dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Shivansh Garg"
+    android:textSize="38sp"
+        android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:layout_marginLeft="20dp"
+    android:layout_below="@id/greeting"/>
+
+    <ImageView
+        android:id="@+id/exercise_icon"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/exercise" />
+
+    <Button
+        android:id="@+id/exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercise_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        android:text="Exercise"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/reports_icon"
+        android:layout_width="96dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="460dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/report" />
+
+    <Button
+        android:id="@+id/reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gradient"
+        android:layout_below="@id/reports_icon"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        android:text="Reports"
+        android:textSize="15dp" />
+
+</RelativeLayout>
